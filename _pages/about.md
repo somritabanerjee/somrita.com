@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -24,7 +24,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-I am a Machine Learning Researcher at Apple. 
+
+I am a Machine Learning Researcher at Apple.
 
 I completed my Ph.D. at Stanford University advised by [Marco Pavone](https://web.stanford.edu/~pavone/) in the [Autonomous Systems Lab](https://asl.stanford.edu/). I completed my B.S. in Mechanical and Aerospace Engineering at Cornell University.
 
