@@ -2,13 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: "Somrita Banerjee" # the website title (if blank, full name will be used instead)
 first_name: Somrita
 middle_name:
 last_name: Banerjee
 contact_note: > # Empty
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Machine Learning Researcher | Space Robotics | AI
+description: >
+  "Somrita Banerjee is a Machine Learning Researcher working at the intersection of AI and robotics. 
+  Her work focuses on robust and adaptive learning algorithms for autonomous systems."
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
