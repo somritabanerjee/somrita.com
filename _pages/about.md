@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: somritabanerjee [at] gmail [dot] com
+subtitle: 
 
 profile:
   align: right

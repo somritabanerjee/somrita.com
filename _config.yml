@@ -6,8 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Somrita
 middle_name: 
 last_name: Banerjee
-contact_note: >
-  somrita_banerjee[at]apple[dot]com or somritabanerjee[at]gmail[dot]com
+contact_note: > # Empty
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Machine Learning Researcher | Space Robotics | AI
 footer_text: >
