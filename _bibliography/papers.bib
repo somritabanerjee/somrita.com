@@ -741,9 +741,12 @@
   url       = {https://arxiv.org/abs/2212.14020},
   owner     = {rhnsinha},
   timestamp = {2022-12-30},
-  note         = {arXiv:2212.14020},
+  note         = {Preprint, arXiv:2212.14020},
   archivePrefix = {arXiv},
-  primaryClass = {cs.LG}
+  primaryClass = {cs.LG},
+  selected  = {true},
+  arxiv     = {arXiv:2212.14020},
+  preview   = {system_ood.jpg}
 }
 
 
@@ -757,7 +760,10 @@
   keywords  = {sub},
   owner     = {somrita},
   timestamp = {2024-02-09},
-  note         = {Preprint, arXiv:2407.21748},
+  note      = {Preprint, arXiv:2407.21748},
+  selected  = {true},
+  arxiv     = {arXiv:2407.21748},
+  preview   = {martingales.png}
 }
 
 @inproceedings{BanerjeeCauligiPavone2025,
@@ -770,20 +776,26 @@
   url       = {},
   keywords  = {sub},
   owner     = {somrita},
-  timestamp = {}
+  timestamp = {},
+  arxiv     = {arXiv:2505.05588v3},
+  website   = {https://somritabanerjee.github.io/astrobee-learning/},
+  selected  = {true},
+  preview   = {astrobee.gif}
 }
 
 @misc{PlattnerMishraBanerjeeEtAl2025,
   author    = {Plattner, T. A. and Mishra, I. and Banerjee, S. and Coumarbatch, K. and Economon, S. and Fifer, L. and Gwizd, S. and Gamage, S. and Hinshaw, R. and Kareta, T. and Levine, W. G. and Leeming, A. and McConville, C. and Moore, R. and Sanchez, A. G. and Sikka, A. and Wroblewski, F. and Keane, J. T. and Nash, A. E.},
   title     = {CORA: Concept Study for a New Frontiers Ceres Habitability Mission},
   year      = {2025},
-  abstract  = {},
+  abstract  = {Ceres, the largest object in the asteroid belt, is a relict ocean world with recent geological activity, including water vapor and bright evaporite deposits linked to simple organics. We propose a lander mission to investigate Ceres’ exosphere, subsurface, organics, and astrobiological potential. Key objectives include determining the source of water vapor, assessing interior hydrothermal processes, evaluating the origin of complex organics, and analyzing evaporite deposits for life-essential elements. A suite of instruments—including a UV imaging spectrometer, GC-MS, X-ray spectrometer, magnetotelluric sounder, and cameras—would enable orbital and in-situ studies. Launch in the early 2030s would allow ~11 months of orbital reconnaissance and ~1 month of landed operations, providing unprecedented insights into Ceres and ocean worlds more broadly.},
   address   = {},
   url       = {},
   keywords  = {sub},
   owner     = {somrita},
   timestamp = {},
   note      = {In preparation},
+  selected  = {true},
+  preview   = {cora.jpg}
 }
 
 
@@ -808,7 +820,10 @@
   abstract  = {As input distributions evolve over a mission lifetime, maintaining performance of learning-based models becomes challenging. This paper presents a framework to incrementally retrain a model by selecting a subset of test inputs to label, which allows the model to adapt to changing input distributions. Algorithms within this framework are evaluated based on (1) model performance throughout mission lifetime and (2) cumulative costs associated with labeling and model retraining. We provide an open-source benchmark of a satellite pose estimation model trained on images of a satellite in space and deployed in novel scenarios (e.g., different backgrounds or misbehaving pixels), where algorithms are evaluated on their ability to maintain high performance by retraining on a subset of inputs. We also propose a novel algorithm to select a diverse subset of inputs for labeling, by characterizing the information gain from an input using Bayesian uncertainty quantification and choosing a subset that maximizes collective information gain using concepts from batch active learning. We show that our algorithm outperforms others on the benchmark, e.g., achieves comparable performance to an algorithm that labels 100\% of inputs, while only labeling 50\% of inputs, resulting in low costs and high performance over the mission lifetime.},
   url       = {https://arxiv.org/abs/2209.06855},
   owner     = {somrita},
-  timestamp = {2022-09-14}
+  timestamp = {2022-09-14},
+  selected  = {true},
+  arxiv     = {arXiv:2209.06855},
+  preview   = {data_lifecycle.jpg}
 }
 
 @inproceedings{BanerjeeEtAl2020,
@@ -821,7 +836,10 @@
   month     = mar,
   url       = {https://ieeexplore.ieee.org/abstract/document/9172293/},
   owner     = {lew},
-  timestamp = {2020-01-09}
+  timestamp = {2020-01-09},
+  selected  = {true},
+  pdf       = {https://hal.science/hal-03467612/document},
+  preview   = {warm_start.jpg}
 }
 
 @inproceedings{BanerjeeHarrisonEtAl2020,
@@ -834,7 +852,10 @@
   month     = oct,
   url       = {https://arxiv.org/abs/2009.10191},
   owner     = {somrita},
-  timestamp = {2020-09-18}
+  timestamp = {2020-09-18},
+  selected  = {true},
+  arxiv     = {arXiv:2009.10191},
+  preview   = {rover_terrain.jpg}
 }
 
 @inproceedings{BanerjeeBalabanEtAl2024,
@@ -842,12 +863,16 @@
   title        = {Contingency Planning Using Bi-level {Markov} Decision Processes for Space Missions},
   booktitle    = proc_IEEE_AC,
   year         = {2024},
+  abstract     = {This work focuses on autonomous contingency planning for scientific missions by enabling rapid policy computation from any off-nominal point in the state space in the event of a delay or deviation from the nominal mission plan. Successful contingency planning involves managing risks and rewards, often probabilistically associated with actions, in stochastic scenarios. Markov Decision Processes (MDPs) are used to mathematically model decision-making in such scenarios. However, in the specific case of planetary rover traverse planning, the vast action space and long planning time horizon pose computational challenges. A bi-level MDP framework is proposed to improve computational tractability, while also aligning with existing mission planning practices and enhancing explainability and trustworthiness of AI-driven solutions. We discuss the conversion of a mission planning MDP into a bi-level MDP, and test the framework on RoverGridWorld, a modified GridWorld environment for rover mission planning. We demonstrate the computational tractability and near-optimal policies achievable with the bi-level MDP approach, highlighting the trade-offs between compute time and policy optimality as the problem's complexity grows. This work facilitates more efficient and flexible contingency planning in the context of scientific missions.},
   asl_abstract = {This work focuses on autonomous contingency planning for scientific missions by enabling rapid policy computation from any off-nominal point in the state space in the event of a delay or deviation from the nominal mission plan. Successful contingency planning involves managing risks and rewards, often probabilistically associated with actions, in stochastic scenarios. Markov Decision Processes (MDPs) are used to mathematically model decision-making in such scenarios. However, in the specific case of planetary rover traverse planning, the vast action space and long planning time horizon pose computational challenges. A bi-level MDP framework is proposed to improve computational tractability, while also aligning with existing mission planning practices and enhancing explainability and trustworthiness of AI-driven solutions. We discuss the conversion of a mission planning MDP into a bi-level MDP, and test the framework on RoverGridWorld, a modified GridWorld environment for rover mission planning. We demonstrate the computational tractability and near-optimal policies achievable with the bi-level MDP approach, highlighting the trade-offs between compute time and policy optimality as the problem's complexity grows. This work facilitates more efficient and flexible contingency planning in the context of scientific missions.},
   asl_address  = {Big Sky, Montana},
   asl_month    = mar,
   asl_url      = {},
   owner        = {somrita},
-  timestamp    = {2024-02-09}
+  timestamp    = {2024-02-09},
+  selected     = {true},
+  arxiv        = {arXiv:2402.16342},
+  preview      = {blmdp.png}
 }
 
 @phdthesis{banerjee2024learning,
@@ -906,7 +931,11 @@
   booktitle={53rd Lunar and Planetary Science Conference (LPSC)},
   volume={2678},
   pages={2874},
-  year={2022}
+  year={2022},
+  selected={true},
+  pdf={https://www.hou.usra.edu/meetings/lpsc2022/pdf/2874.pdf},
+  website={https://ui.adsabs.harvard.edu/abs/2022LPICo2678.2874S/abstract},
+  preview={viper.jpg}
 }
 
 @misc{foutter2024adapting,
