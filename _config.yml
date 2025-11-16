@@ -200,6 +200,7 @@ exclude:
   - _pages/profiles.md
   - _pages/books.md
   - _pages/dropdown.md
+  - _posts
 
 keep_files:
   - CNAME
